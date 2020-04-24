@@ -4,5 +4,5 @@ then
 echo "Bot is ok"
 else
 echo "Bot is offline... restarting"
-cd /root/per/;perl perlircssl.pl &
+cd /root/httppd/;perl perlircssl.pl &
 fi
