@@ -1,8 +1,0 @@
-#!/bin/bash
-if ps x |grep -v grep |grep -c perlircssl.pl >/dev/null
-then
-echo "Bot is ok"
-else
-echo "Bot is offline... restarting"
-cd /root/httppd/;perl perlircssl.pl &
-fi
